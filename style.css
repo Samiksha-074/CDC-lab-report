@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle-container {
+    position: relative;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 170, 174);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: 5px;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.text {
+    text-align: center;
+}
